@@ -14,6 +14,12 @@ vendor/lib/libcvsd_mtk.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libspeech_enh_lib.so
 
+# Bluetooth
+bin/btmac.sh
+lib/libbluetooth_mtk.so
+lib/libbt-vendor.so
+vendor/lib/libbluetooth_mtk_pure.so
+
 # Display
 lib/libqservice.so
 vendor/bin/hdmi

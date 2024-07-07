@@ -57,6 +57,35 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        lib/libqservice.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/bin/hdmi)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.mt8695.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/hw/hdmi_cec.mt8695.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/libaudiohalopen.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/libhdmi*.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/libgui_ext.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+        vendor/lib/libui_ext.so)
+            patchelf --add-needed "libutils_shim.so" "${2}"
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 

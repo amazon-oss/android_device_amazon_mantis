@@ -65,3 +65,6 @@ vendor/lib/libnvram_platform.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram.so
+
+# Wi-Fi
+bin/wpa_supplicant

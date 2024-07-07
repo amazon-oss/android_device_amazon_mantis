@@ -43,6 +43,20 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0
 endif
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    lib_driver_cmd_mt66xx \
+    libwifi-hal-mt66xx \
+    libwpa_client
+
+PRODUCT_PACKAGES += \
+    hostapd \
+    hostapd_cli \
+    wpa_cli
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/amazon/mantis/mantis-vendor.mk)
 

@@ -7,6 +7,21 @@
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard,tv
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.r_submix.default \
+    audio.usb.default
+
+PRODUCT_PACKAGES += \
+    libaudio-resampler \
+    libaudioutils \
+    libaudioroute \
+    libtinyalsa
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Display
 PRODUCT_PACKAGES += \
     libdrm \

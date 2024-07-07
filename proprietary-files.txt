@@ -1,5 +1,19 @@
 # Unpinned blobs from mantis-user 6.0 NS6704 5281 amz-p,release-keys
 
+# Audio
+lib/libamazon_remotes.so
+lib/libmediaextension.so
+vendor/lib/hw/audio.primary.mt8695.so
+vendor/lib/libaudiocustparam.so
+vendor/lib/libaudiocomponentengine.so
+vendor/lib/libmtk_drvb.so
+vendor/lib/libaudiohalopen.so
+vendor/lib/libblisrc.so
+vendor/lib/libblisrc32.so
+vendor/lib/libcvsd_mtk.so
+vendor/lib/libmsbc_mtk.so
+vendor/lib/libspeech_enh_lib.so
+
 # Display
 lib/libqservice.so
 vendor/bin/hdmi

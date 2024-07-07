@@ -1,0 +1,35 @@
+# Unpinned blobs from mantis-user 6.0 NS6704 5281 amz-p,release-keys
+
+# Display
+lib/libqservice.so
+vendor/bin/hdmi
+vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+vendor/lib/hw/gralloc.mt8695.so
+vendor/lib/hw/gralloc.mt8695.sw.so
+vendor/lib/hw/hdmi_cec.mt8695.so
+vendor/lib/hw/hwcomposer.mt8695.so
+vendor/lib/hw/memtrack.mt8695.so
+vendor/lib/hw/vulkan.mt8695.so
+vendor/lib/libIMGegl.so
+vendor/lib/libPVROCL.so
+vendor/lib/libPVRScopeServices.so
+vendor/lib/libavsync.so
+vendor/lib/libdpframework.so
+vendor/lib/libglslcompiler.so
+vendor/lib/libhdmi.so
+vendor/lib/libhdmiservice.so
+vendor/lib/libgralloc_extra.so
+vendor/lib/libgui_ext.so
+vendor/lib/libion_mtk.so
+vendor/lib/libm4u.so
+vendor/lib/libmemtrack_GL.so
+vendor/lib/libmtk_eglx.so
+vendor/lib/libmtk_gralloc_common.so
+vendor/lib/libpvrANDROID_WSEGL.so
+vendor/lib/libsrv_um.so
+vendor/lib/libufwriter.so
+vendor/lib/libusc.so
+vendor/lib/libui_ext.so
+vendor/lib/libtz_uree.so

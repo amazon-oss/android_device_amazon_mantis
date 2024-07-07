@@ -7,6 +7,11 @@
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard,tv
 
+# Display
+PRODUCT_PACKAGES += \
+    libdrm \
+    libion
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

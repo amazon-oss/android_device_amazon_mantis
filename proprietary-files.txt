@@ -33,3 +33,9 @@ vendor/lib/libufwriter.so
 vendor/lib/libusc.so
 vendor/lib/libui_ext.so
 vendor/lib/libtz_uree.so
+
+# Keymaster
+vendor/bin/kisd
+vendor/bin/rpmb_svc
+vendor/etc/init/rpmb_svc.rc
+vendor/lib/hw/keystore.mt8695.so

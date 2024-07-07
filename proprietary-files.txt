@@ -48,6 +48,23 @@ vendor/lib/libusc.so
 vendor/lib/libui_ext.so
 vendor/lib/libtz_uree.so
 
+# DRM
+bin/amzn_dha_self_test.sh
+bin/amzn_dha_tool
+bin/amzn_drmprov_check
+bin/amzn_drmprov_tool
+lib/hw/amzn_dha.mt8695.so
+lib/hw/amzn_drmprov.mt8695.so
+vendor/bin/pr_device_cert_id
+vendor/bin/uree_fps_test
+vendor/lib/libTAFps.so
+vendor/lib/liboemcrypto.so
+vendor/lib/libplayready.so
+vendor/lib/liburee_meta_drmkeyinstall_v2.so
+vendor/lib/liburee_fps.so
+vendor/lib/lib_uree_mtk_modular_drm.so
+vendor/lib/mediadrm/libdrmfpsplugin.so
+
 # IDME
 bin/idme
 bin/devicetype_service

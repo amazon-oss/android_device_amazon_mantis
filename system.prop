@@ -4,6 +4,11 @@ dalvik.vm.heapmaxfree=2m
 # Display
 ro.sf.lcd_density=320
 
+# DRM
+ro.amzn_drm.pr3_file=/data/playready/AIVDrmStore
+ro.mtk_widevine_drm_l1_support=1
+drm.service.enabled=true
+
 # HWUI
 ro.hwui.texture_cache_size=48.0
 ro.hwui.texture_cache_flushrate=0.4

@@ -65,6 +65,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8695
 
+# Shims
+TARGET_LDPRELOAD += libamazonlog.so
+
 # Wi-Fi
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_WLAN_DEVICE := MediaTek

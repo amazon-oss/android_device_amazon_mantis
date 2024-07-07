@@ -14,6 +14,11 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a53
 TARGET_ARCH_VARIANT_CPU := cortex-a53
 
+# Platform
+BOARD_USES_MTK_HARDWARE := true
+TARGET_BOARD_PLATFORM := mt8695
+TARGET_BOARD_VENDOR := amazon
+
 # Inherit the prebuilt kernel files
 include device/amazon/mantis-kernel/BoardConfigKernel.mk
 

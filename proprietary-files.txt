@@ -72,6 +72,17 @@ vendor/lib/liburee_fps.so
 vendor/lib/lib_uree_mtk_modular_drm.so
 vendor/lib/mediadrm/libdrmfpsplugin.so
 
+# Firmware
+vendor/firmware/WIFI_RAM_CODE_MT7668.bin
+vendor/firmware/rgx.fw.signed
+vendor/firmware/mt7668_patch_e2_hdr.bin
+vendor/firmware/wifi.cfg
+vendor/firmware/TxPwrLimit_MT76x8.dat
+vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin
+vendor/firmware/EEPROM_MT7668.bin
+vendor/firmware/wifi_mt7668_driver.sh
+vendor/firmware/woble_setting.bin
+
 # IDME
 bin/idme
 bin/devicetype_service

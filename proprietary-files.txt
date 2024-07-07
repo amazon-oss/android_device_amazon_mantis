@@ -34,6 +34,10 @@ vendor/lib/libusc.so
 vendor/lib/libui_ext.so
 vendor/lib/libtz_uree.so
 
+# IDME
+bin/idme
+bin/devicetype_service
+
 # Keymaster
 vendor/bin/kisd
 vendor/bin/rpmb_svc

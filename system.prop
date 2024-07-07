@@ -22,6 +22,12 @@ ro.hwui.path_cache_size=16.0
 ro.hwui.r_buffer_cache_size=4.0
 ro.hwui.text_small_cache_height=512
 
+# OMX
+mtk.vdec.waitkeyframeforplay=1
+ro.media.maxmem=500000000
+ro.mtk_sec_video_path_support=1
+ro.mtk_key_manager_kb_path=1
+
 # OpenGLES
 ro.opengles.version=196610
 

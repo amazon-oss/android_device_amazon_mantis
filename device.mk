@@ -9,3 +9,6 @@ PRODUCT_CHARACTERISTICS := nosdcard,tv
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/amazon/mantis/mantis-vendor.mk)
+
+# Inherit the prebuilt kernel files
+$(call inherit-product-if-exists, device/amazon/mantis-kernel/kernel.mk)

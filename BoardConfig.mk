@@ -14,5 +14,8 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a53
 TARGET_ARCH_VARIANT_CPU := cortex-a53
 
+# Inherit the prebuilt kernel files
+include device/amazon/mantis-kernel/BoardConfigKernel.mk
+
 # Inherit the proprietary files
 include vendor/amazon/mantis/BoardConfigVendor.mk

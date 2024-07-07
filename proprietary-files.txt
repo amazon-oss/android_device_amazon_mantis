@@ -87,5 +87,8 @@ vendor/lib/libnvram.so
 lib/hw/thermal.mt8695.so
 etc/.tp/thermal.policy.conf
 
+# Time
+lib/hw/local_time.mt8695.so
+
 # Wi-Fi
 bin/wpa_supplicant

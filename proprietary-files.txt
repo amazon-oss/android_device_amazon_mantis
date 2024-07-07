@@ -57,6 +57,7 @@ lib/hw/amzn_dha.mt8695.so
 lib/hw/amzn_drmprov.mt8695.so
 vendor/bin/pr_device_cert_id
 vendor/bin/uree_fps_test
+vendor/lib/libFPS.so
 vendor/lib/libTAFps.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libplayready.so
@@ -74,6 +75,20 @@ vendor/bin/kisd
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
 vendor/lib/hw/keystore.mt8695.so
+
+# Media (OMX)
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libMtkOmxMp3Dec.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libfbm.so
+vendor/lib/lib_uree_mtk_video_secure_al.so
+vendor/lib/lib_uree_mtk_crypto.so
+vendor/lib/libstagefrighthw.so
+vendor/lib/libvcodec_utility.so
+vendor/lib/libvcodecdrv.so
+vendor/lib/libvcodec_oal.so
+vendor/lib/libvdec_app.so
 
 # NVRAM
 vendor/lib/libfile_op.so

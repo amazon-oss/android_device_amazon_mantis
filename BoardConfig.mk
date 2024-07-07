@@ -38,6 +38,9 @@ BOARD_USES_MTK_HARDWARE := true
 TARGET_BOARD_PLATFORM := mt8695
 TARGET_BOARD_VENDOR := amazon
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8695
+
 # Inherit the prebuilt kernel files
 include device/amazon/mantis-kernel/BoardConfigKernel.mk
 

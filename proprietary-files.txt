@@ -39,3 +39,11 @@ vendor/bin/kisd
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
 vendor/lib/hw/keystore.mt8695.so
+
+# NVRAM
+vendor/lib/libfile_op.so
+vendor/lib/libnvramagentclient.so
+vendor/lib/libnvram_platform.so
+vendor/lib/libcustom_nvram.so
+vendor/lib/libnvram_daemon_callback.so
+vendor/lib/libnvram.so

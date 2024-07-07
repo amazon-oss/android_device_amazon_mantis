@@ -83,5 +83,9 @@ vendor/lib/libcustom_nvram.so
 vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram.so
 
+# Thermal
+lib/hw/thermal.mt8695.so
+etc/.tp/thermal.policy.conf
+
 # Wi-Fi
 bin/wpa_supplicant

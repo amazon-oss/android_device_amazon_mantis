@@ -78,7 +78,8 @@ endif
 
 # Shims
 PRODUCT_PACKAGES += \
-    libamazonlog
+    libamazonlog \
+    libutils_shim
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

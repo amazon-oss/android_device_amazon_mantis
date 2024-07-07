@@ -4,6 +4,11 @@ dalvik.vm.heapmaxfree=2m
 # Display
 ro.sf.lcd_density=320
 
+# DRM
+ro.amzn_drm.pr3_file=/data/playready/AIVDrmStore
+ro.mtk_widevine_drm_l1_support=1
+drm.service.enabled=true
+
 # HDMI
 ro.hdmi.device_type=4
 ro.hdmi.wake_on_hotplug=false

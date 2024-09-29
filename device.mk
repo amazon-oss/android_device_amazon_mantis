@@ -101,5 +101,8 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/amazon/mantis/mantis-vendor.mk)
 
+# Inherit the prebuilt ATV common apps
+$(call inherit-product, vendor/google/atv/atv-common.mk)
+
 # Inherit the prebuilt kernel files
 $(call inherit-product-if-exists, device/amazon/mantis-kernel/kernel.mk)

@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Bootanimation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Display
 PRODUCT_PACKAGES += \
     libdrm \

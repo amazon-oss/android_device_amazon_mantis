@@ -83,4 +83,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     -->
     <integer name="config_longPressOnHomeBehavior">1</integer>
+
+    <!-- Don't allow volume change on the device. -->
+    <bool name="config_useFixedVolume">true</bool>
 </resources>

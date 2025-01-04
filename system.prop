@@ -22,6 +22,10 @@ ro.hwui.path_cache_size=16.0
 ro.hwui.r_buffer_cache_size=4.0
 ro.hwui.text_small_cache_height=512
 
+# Netflix
+ro.nrdp.modelgroup=FIRETVSTICK2018
+ro.nrdp.validation=ninja_5.1
+
 # OMX
 mtk.vdec.waitkeyframeforplay=1
 ro.media.maxmem=500000000

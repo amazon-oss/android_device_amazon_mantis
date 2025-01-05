@@ -34,6 +34,9 @@ vendor/lib/libusc.so
 vendor/lib/libui_ext.so
 vendor/lib/libtz_uree.so
 
+# Gatekeeper
+vendor/lib/hw/gatekeeper.mt8695.so
+
 # Keymaster
 vendor/bin/kisd
 vendor/bin/rpmb_svc

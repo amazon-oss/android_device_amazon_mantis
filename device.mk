@@ -16,6 +16,9 @@ PRODUCT_AAPT_PREF_CONFIG := tvdpi
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard,tv
 
+# Charger
+WITH_CM_CHARGER := false
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \

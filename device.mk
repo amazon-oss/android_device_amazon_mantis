@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
     libamazonlog \
     libutils_shim
 
+# TV
+PRODUCT_PACKAGES += \
+    LineageCustomizer
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     lib_driver_cmd_mt66xx \
